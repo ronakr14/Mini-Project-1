@@ -1,0 +1,36 @@
+MongoDb and MongoDb Express through docker
+
+In Brief:
+Installing mongoDB server database and Mongo Express using containers on Docker Engine and accessing the database using browser
+
+Prerequisite:
+Docker Installed on the System
+OS:MAC/Linux/Windows
+
+Description
+
+MongoDB is a source-available cross-platform document-oriented database program. 
+Classified as a NoSQL database program, MongoDB uses JSON-like documents with optional schemas.
+MongoDB is developed by MongoDB Inc.
+
+Mongo Express is a lightweight web-based administrative interface deployed to manage MongoDB databases interactively
+
+Docker is a set of platform as a service products that use OS-level virtualization to deliver software in packages called containers.
+
+A container is a standard unit of software that packages up code and all its dependencies so the application runs quickly 
+and reliably from one computing environment to another. 
+
+Container images become containers at runtime and in the case of Docker containers – images become containers when they run on Docker Engine. 
+
+Steps:
+1.Downloading MongoDB Image using Docker Hub
+2.Downloading MongoExpress Image using Docker Hub
+3.Creating a network through which MongoDB Server and MongoExpress will be connected
+4.Creating a container out of MongoDB Image
+5.Creating a container out of MongoExpress Image
+6.Accessing MongoDB Server Database on Browser using MongoExpress
+
+
+**Note: All commands can be found in documentation of container image on docker website.
+
+Link of the video:	https://youtu.be/CxfumuSmRWA
